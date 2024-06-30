@@ -51,6 +51,7 @@ class AuthMethods {
   void signOut() async {
     try {
       _auth.signOut();
+      await GoogleSignIn().signOut();
     } catch (e) {
       debugPrint(e.toString());
     }
