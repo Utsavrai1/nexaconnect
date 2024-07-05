@@ -1,16 +1,53 @@
-# nexaconnect
+# NexaConnect
 
-A new Flutter project.
+NexaConnect is a cross-platform video and audio calling application built using Flutter. It allows users to seamlessly connect with others through high-quality video and audio calls.
+
+## Features
+
+- **Video Calling**: Initiate video calls with contacts.
+- **Audio Calling**: Make crystal-clear audio calls.
+- **Cross-Platform**: Works on both Android and iOS platforms.
+- **User Authentication**: Secure user authentication using tokens.
+- **Contacts Integration**: Easily find and connect with contacts.
+- **Push Notifications**: Receive notifications for incoming calls.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with NexaConnect, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Install Flutter and Dart on your machine.
+- Set up an emulator or use a physical device to run the app.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Utsavrai1/nexaconnect.git
+```
+
+
+2. Navigate into the project directory:
+
+```bash
+cd nexaconnect
+```
+
+3. Install dependencies:
+
+```bash
+flutter pub get
+```
+
+4. Configure Firebase 
+
+### Usage
+
+1. Run the app:
+
+```bash
+flutter run
+```
+
